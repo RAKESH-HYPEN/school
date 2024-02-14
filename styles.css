@@ -1,0 +1,152 @@
+/* App.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set height to fill the viewport */
+  }
+  
+ 
+  
+  .dps-box {
+    color: #fff; /* Example text color */
+    padding: 140px 50px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    font-size: 30px;
+  }
+  
+  .sidebar-toggle {
+    cursor: pointer;
+    color: #fff; /* Example icon color */
+    position: absolute;
+    left: 20px;
+    top: 23px;
+  }
+  
+  
+  
+  .content-container {
+    display: flex;
+    flex: 1; /* Fill remaining vertical space */
+  }
+  
+  .sidebar {
+    width: 200px; /* Adjust sidebar width as needed */
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd; /* Add border to the right */
+  }
+  
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Add margin to the top */
+  }
+  
+  .dashboard-header {
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 10px; /* Add margin to the bottom */
+  }
+  
+  .dashboard-buttons {
+    display: flex;
+    gap: 10px; /* Add gap between buttons */
+  }
+  
+  .dashboard-buttons button {
+    padding: 3px 15px; /* Add padding to buttons */
+    font-size: 14px; /* Adjust font size */
+    margin: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+  }
+  
+  .sidebar a {
+    display: block; /* Ensure each item takes up the full width */
+    padding: 5px; /* Add padding to the sidebar items */
+    margin-bottom: 10px; /* Add margin between sidebar items */
+    color: #333; /* Example text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .sidebar a:hover {
+    background-color: #ddd; /* Example background color on hover */
+  }
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+    height: 50px;
+    background-color: #333;
+    padding: 0 20px;
+  }
+  
+  .topbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sidebar-toggle {
+    color: #fff;
+  }
+  .voice-search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+  }
+  .topbar-search input {
+    padding: 5px;
+    width: 200px; /* Adjust width as needed */
+    border-radius: 5px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .topbar-search {
+    position: relative;
+    align-items: center;
+    display: flex;
+  }
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #ddd;
+  }
+  
+  .active {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  /* Add this CSS to your styles.css file */
+
+.transport-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .transport-buttons-row {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 10px; /* Add margin between rows */
+  }
+  
+  .transport-buttons-row button {
+    margin: 15px 10px; /* Add margin between buttons */
+    width: 200px; /* Set button width */
+    height: 40px; /* Set button height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+  
